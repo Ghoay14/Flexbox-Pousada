@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-topo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1324px;
+    align-items: center;
+    margin: 0 auto;
+}
+.container-topo a{
+    font-size: 24px;
+    text-decoration: none;
+    color: gray;
+}
+.container-topo a span{
+    color: blue;
+}
+.topo-1 a{
+   gap: 20px;
+}
+.container-links{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.container-links a{
+    font-size: 20px;
+}
+.container-img{
+    background-image: url(assets/img-fundo.jpg);
+    height: 250px;
+    background-size: cover;
+}
+.texto-quarto h2{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 30px;
+}
+.texto-quarto p{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 18px;
+}
+.texto-quarto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.container-img-quarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tabela{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.lista-de-Informações{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.lista-de-Informações li{
+    width: 200px;
+    text-align: left;
+}
+.quarto-geral{
+    width: 450px;
+    height: 300px;
+}
+
+h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.rodape{
+    background-color: rgb(156, 180, 156);
+    padding: 30px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rodape-info{
+    flex: 1 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.faixa-final{
+    border: 2px solid rgb(144, 209, 144);
+    width: 100%;
+}
+.rodape-info a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.rodape-info p{
+    font-size: 22px;
+    padding: 5px;
+}
+.rodape-info h3{
+    font-size: 24px;
+    padding: 5px;
+}
+.rodape .rodape-final{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.rodape-info2{
+    display: flex;
+    gap: 2px;
+}
+.rodape-info2 img{
+    width: 40px;
+    height: 40px;
+}
